@@ -518,17 +518,29 @@ progress {
   position: fixed;
   
 }
-/* Phone icon styling */
-.phone {
+.phone{
+  position: fixed;
+}
+.watspp {
   position: fixed;
   bottom: 80px;
   right: 40px;
   z-index: 9999;
-  color:green; /* Change color as needed */
-  font-size: 124px; /* Adjust size as needed */
+  color:green; 
+  font-size: 124px; 
+}
+.ph {
+  position: fixed;
+  bottom: 240px;
+  right: 40px;
+  z-index: 9999;
+  color:blue;
+  font-size: 124px; 
 }
 
-
+.ph i {
+  transform: rotate(90deg); 
+}
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
@@ -17933,7 +17945,15 @@ li {
 }
 
 .fa-whatsapp-square:before {
-  content: "\f40c";
+  content: "\f232";
+}
+
+.fa-phone:before {
+  content: "\f095";
+}
+
+.fa-phone-square:before {
+  content: "\f095";
 }
 
 .fa-wheelchair:before {
