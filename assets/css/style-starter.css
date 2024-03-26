@@ -22881,6 +22881,19 @@ h3.title-style span {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+.servicehead{
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+ font-style:italic;
+}
+
+.servicebody{
+  color: var(--bs-red);
+  margin-top: 10px;
+  text-align: left;
+  font-style:italic;
+}
 
 .image-overlay span {
   color: #fff;
@@ -22911,6 +22924,12 @@ h3.title-style span {
   opacity: 1;
 }
 
+.plus{
+  width: 30px;
+  height: 30px;
+  margin-top: -90px;
+ 
+}
 a.blog-image .iconic-plus i {
   position: absolute;
   z-index: 1;
