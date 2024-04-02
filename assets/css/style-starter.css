@@ -527,15 +527,15 @@ progress {
   right: 40px;
   z-index: 9999;
   color:green; 
-  font-size: 124px; 
+  font-size: 60px; 
 }
 .ph {
   position: fixed;
-  bottom: 240px;
+  bottom: 170px;
   right: 40px;
   z-index: 9999;
   color:blue;
-  font-size: 124px; 
+  font-size: 60px; 
 }
 
 .ph i {
